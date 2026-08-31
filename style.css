@@ -34,6 +34,13 @@ h1, h2, p, a {
   color: white;
   cursor: pointer;
 }
+
+/* Enlarge Logo / Brand Text */
+.logo {
+  font-size: 2rem; /* Larger text size */
+  font-weight: bold;
+}
+
 /* Slide-out Menu Panel */
 .side-menu {
   position: fixed;
