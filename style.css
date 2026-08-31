@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'LL Pixel';
+  src: url('LLPixel.ttf') format('truetype');
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +9,13 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'LL Pixel', sans-serif;
+}
+
+/* Rendering optimization for pixel/retro fonts */
+h1, h2, p, a {
+  font-smooth: never;
+  -webkit-font-smoothing: none;
 }
 /* Header Bar */
 .top-bar {
