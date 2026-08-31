@@ -112,3 +112,31 @@ h1, h2, p, a {
   opacity: 1;
   visibility: visible;
 }
+
+/* Container for all page sections */
+.page-section {
+  padding: 4rem 2rem; /* Adds space inside the section */
+  min-height: 100vh;  /* Makes each section take up at least the full screen height */
+  color: white;       /* Adjust text color to contrast with your background */
+}
+
+/* Optional: Different background colors to tell them apart easily */
+#home {
+  background-color: #2a2a2a;
+}
+
+#about {
+  background-color: #333333;
+}
+
+/* Typography styles */
+.page-section h1, .page-section h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.page-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+}
