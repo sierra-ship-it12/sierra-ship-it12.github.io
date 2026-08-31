@@ -24,7 +24,7 @@ h1, h2, p, a {
   gap: 1rem;
   padding: 1rem;
   background-color: #1a1a1a;
-  color: white;
+  color: green;
 }
 
 .open-btn {
