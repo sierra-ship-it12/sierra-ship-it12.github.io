@@ -1,17 +1,58 @@
+/* Reset margins and default bullet points */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    margin: 0;
-    padding: 40px;
-    text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
-    color: #24292e;
+/* Navbar container layout */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  color: white;
 }
 
-p {
-    font-size: 18px;
-    line-height: 1.6;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Horizontal list layout */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* Link styling */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover effects */
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* Call-to-action button styling */
+.nav-links .btn {
+  background-color: #00bcd4;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.nav-links .btn:hover {
+  background-color: #008c9e;
+  color: white;
 }
